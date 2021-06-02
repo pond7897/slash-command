@@ -12,7 +12,7 @@ client.on('ready', () => {
         //}
     //});
 
-    client.api.applications(client.user.id).guilds('492659826510397440').commands.post({
+    client.api.applications(client.user.id).guilds('ไอดี เซิฟ').commands.post({
         data: {
             name: "botinfo",
             description: "ข้อมูลบอทมีแกน",
